@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>hello, leina!</title>
+    <title>hello!</title>
 
     <script src="index.js"></script>
     <style>
@@ -18,12 +18,12 @@
             font-weight: normal;
             font-style: normal;
       }
-   
+
 
         body {
-            background-image: url(IMG_4253.JPG);
+            background-image : url(IMG_4253.JPG);
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
             background-color: rgb(238, 236, 236);
 
             font-family: 'AbrilFatface-Regular';
@@ -79,6 +79,12 @@
             align-items: center;
             justify-content: center;
         }
+
+        @media screen and (max-width:980px) {
+	body{
+	 background-size: contain;
+	}
+  }
     </style>
 
     <script>
